@@ -1,0 +1,3 @@
+# README文件 保存 项目的相关信息文件
+# .gitignore文件  设置跳关上传的相关文件，比如node_modules，文件不需要上传
+# LICENSF 开源协议 MIT 一张图弄懂 MIT，BSD，Apache几种开源协议之间的区别
