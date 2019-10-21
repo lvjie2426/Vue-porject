@@ -1,0 +1,37 @@
+git 上传代码
+
+1初始化项目：在项目根目录 运行 git init 生成本地git文件(本地仓库)
+2把当前项目文件 添加到 git add . git仓库 
+3.查看当前状态 上传状态 本地添加状态，git status
+4.把未添加成功的文件添加到git仓库 [ git add . ]
+5.把上一步的文件添加到工作区 git commit -m‘-m后是本次操作备注信息’(每次修改后都需再次提交工作区)
+
+6 Git上传(把本地工作区代码上传 托管平台 github 码云) 
+  全局设置:
+设置邮箱名
+git config --global user.name "lvjie2426"
+git config --global user.email "1260543498@qq.com"
+
+创建 git 仓库:
+
+mkdir hhjl111 //mkdir 创建一个文件‘ hhjl111’
+cd hhjl111//进入文件
+git init//初始化git 创建git仓库
+touch README.md //git创建 readme 描述文件
+git add README.md //添加文件
+git commit -m "first commit" //提交文件到工作区
+git remote add origin /git@gitee.com:lvjie2426/hhjl111.git/
+git push -u origin master //上传分支
+
+已有仓库?
+cd existing_git_repo //进入项目根目录，当前目录运行可省略
+git remote add origin /git@gitee.com:lvjie2426/hhjl111.git/
+git push -u origin master //上传分支
+
+
+
+
+**选择平台 添加路径
+github 
+.码云
+
