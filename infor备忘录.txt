@@ -5,6 +5,13 @@ git 上传代码
 3.查看当前状态 上传状态 本地添加状态，git status
 4.把未添加成功的文件添加到git仓库 [ git add . ]
 5.把上一步的文件添加到工作区 git commit -m‘-m后是本次操作备注信息’(每次修改后都需再次提交工作区)
+--git status查看当前状态 1.链接url 2.是否被放在工作区 .git (仓库)
+--git add .  把文件放入git仓库
+-- git commit -m'备注' 提交文件到工作区 (上传和下载的缓冲区)
+-- git remote -v 当前链接的上传 下载代码仓库 url
+--git remote rm  origin 删除当前链接仓库的状态
+--git remote add origin /giturl/  创建当前链接仓库的状态
+--git push -u origin master 提交工作区文件到master分支
 
 6 Git上传(把本地工作区代码上传 托管平台 github 码云) 
   全局设置:
@@ -33,5 +40,5 @@ git push -u origin master //上传分支
 
 **选择平台 添加路径
 github 
-.码云
+.码云 giett
 
