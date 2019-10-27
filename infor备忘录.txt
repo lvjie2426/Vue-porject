@@ -11,7 +11,9 @@ git 上传代码
 -- git remote -v 当前链接的上传 下载代码仓库 url
 --git remote rm  origin 删除当前链接仓库的状态
 --git remote add origin /giturl/  创建当前链接仓库的状态
---git push -u origin master 提交工作区文件到master分支
+--git push -u origin master 提交工作区文件到master分支 ***文件@git路径上传失败
+***解决方法  https://blog.csdn.net/wy_bk/article/details/86703040
+1.git pull --rebase origin master 运行之后 再执行 git push -u origin master
 
 6 Git上传(把本地工作区代码上传 托管平台 github 码云) 
   全局设置:
